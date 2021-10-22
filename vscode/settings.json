@@ -1,0 +1,52 @@
+{
+    "go.useLanguageServer": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Bearded Theme Surprising Watermelon",
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<space>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        }
+    ],
+    "editor.fontSize": 15,
+    "editor.fontFamily": "Consolas, Monaco, 'Courier New', monospace",
+    "editor.cursorBlinking": "solid",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "explorer.confirmDelete": false,
+    "python.linting.flake8Args": [
+        "--ignore=E501"
+    ],
+    "python.analysis.diagnosticSeverityOverrides":{
+        "reportMissingImports": "none"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "redhat.telemetry.enabled": false,
+    "sync.gist": "878977b8d8b36513dc1749f08963ee95",
+    "cSpell.language": "en,en-US,pt,pt-PT",
+    "python.formatting.provider": "black"
+}
+
